@@ -48,19 +48,19 @@ console.log(nombre); */
 
 // Actividad 3 (Nómina)
 
-// var salarioDia = parseInt(prompt('¿Cuál es tu salario diario?'));
-// var salarioExtra = parseInt(prompt('¿Cuántas horas extra trabajaste este mes?'));
-// var salarioExtra = (salarioDia/8) * (salarioExtra) * 2
-// var salarioQuin = (salarioDia * 10);
-// var salarioMens = (salarioDia * 22);
-// var salarioBrutoMens = (salarioMens) + (salarioExtra);
-// var salarioBrutoQuin = ((salarioMens) + (salarioExtra)) / 2;
-// var salarioNetoMens = (salarioBrutoMens) - (salarioBrutoMens * .30) - (salarioBrutoMens * .10);
-// var salarioNetoQuin = ((salarioBrutoMens) - (salarioBrutoMens * .30) - (salarioBrutoMens * .10)) / 2;
+var salarioDia = parseInt(prompt('¿Cuál es tu salario diario?'));
+var salarioExtra = parseInt(prompt('¿Cuántas horas extra trabajaste este mes?'));
+var salarioExtra = (salarioDia/8) * (salarioExtra) * 2
+var salarioQuin = (salarioDia * 10);
+var salarioMens = (salarioDia * 22);
+var salarioBrutoMens = (salarioMens) + (salarioExtra);
+var salarioBrutoQuin = ((salarioMens) + (salarioExtra)) / 2;
+var salarioNetoMens = (salarioBrutoMens) - (salarioBrutoMens * .30) - (salarioBrutoMens * .10);
+var salarioNetoQuin = ((salarioBrutoMens) - (salarioBrutoMens * .30) - (salarioBrutoMens * .10)) / 2;
 
-// console.log('Salario bruto mensual ' + salarioBrutoMens) 
-// console.log('Salario bruto mensual ' + salarioBrutoQuin)
-// console.log('Salario neto Quincenal ' + salarioNetoQuin)
-// console.log('Slario neto mensual ' + salarioNetoMens)
+console.log('Salario bruto mensual ' + salarioBrutoMens) 
+console.log('Salario bruto mensual ' + salarioBrutoQuin)
+console.log('Salario neto Quincenal ' + salarioNetoQuin)
+console.log('Slario neto mensual ' + salarioNetoMens)
 
 // ----------------------------------------------------------------------------

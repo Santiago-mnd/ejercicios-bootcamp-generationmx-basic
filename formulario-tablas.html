@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios y tablas</title>
+    </head>
+    <body>
+        <h1>Formularios y tablas</h1>
+
+
+        <!-- <table border='1'>
+            <tr>
+                <!-- <td>Celda 1</td>
+                <td>Celda 2</td>
+                <td>Celda 3</td> -->
+                <!-- <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th> -->
+            <!-- </tr>
+            <tr>
+                <td>Curso de JS</td>
+                <td>Curso de Bootstrap</td>
+                <td>Curso de Java</td>
+                <td>Curso de Springboot</td>
+                <td>Curso de HTML</td>
+            </tr>
+            <tr>
+                <td>Cursos</td>
+                <td>Cursos</td>
+                <td>Y</td>
+                <td>Más</td>
+                <td>Cursos</td>
+            </tr>
+            <tr>
+                <td>Todavía</td>
+                <td>Más</td>
+                <td>Y</td>
+                <td>Más</td>
+                <td>Cursos</td>
+            </tr>
+            <tr>
+                <td>Ya</td>
+                <td>No</td>
+                <td>Quiero</td>
+                <td>Nada</td>
+                <td>Aussilio</td> -->
+            <!-- </tr>
+        </table> --> 
+
+        <table border="1">
+            <tr>
+                <th colspan="2"> </th>
+                <th>Nombre</th>
+                <th>Masa (10(24) Kg)</th>
+                <th>Diámetro (Km)</th>
+                <th>Densidad (Kg/m3)</th>
+                <th>Gravedad (m/s2)</th>
+                <th>Duración del día (Horas)</th>
+            </tr>
+            <tr>
+                <th colspan="2" rowspan="4">Planetas terrestres</th>
+                <th>Mercurio</th>
+                <td>0,330</td>
+                <td>4.879</td>
+                <td>5.427</td>
+                <td>3,7</td>
+                <td>4.222,6</td>
+            </tr>
+            <tr>
+                <th>Venus</th>
+                <td> 4,87 </td>
+                <td>12.104</td>
+                <td>5.243</td>
+                <td>8,9</td>
+                <td>2.802,0</td>
+            </tr>
+            <tr>
+                <th>La tierra</th>
+                <td>5,97</td>
+                <td>12.756</td>
+                <td>5.514</td>
+                <td>9,8</td>
+                <td>24,0</td>
+            </tr>
+            <tr>
+                <th>Marte</th>
+                <td>0.642</td>
+                <td>6.792</td>
+                <td>3.933</td>
+                <td>3,7</td>
+                <td>24,7</td>
+            </tr>
+            <tr>
+                <th rowspan="4">Planetas jovianos</th>
+                <th rowspan="2">los gigantes de gas</th>
+                <th>Jupiter</th>
+                <td>1.898</td>
+                <td>142.984</td>
+                <td>1.326</td>
+                <td>23,1</td>
+                <td>9,9</td>
+            </tr>
+            <tr>
+                <th>Saturno</th>
+                <td>568</td>
+                <td>120.536</td>
+                <td>687</td>
+                <td>9,0</td>
+                <td>10,7</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Los gigantes de hielo</th>
+                <th>Urano</th>
+                <td>86,8</td>
+                <td>51.118</td>
+                <td>1.271</td>
+                <td>8,7</td>
+                <td>17,2</td>
+            </tr>
+            <tr>
+                <th>Neptuno</th>
+                <td>102</td>
+                <td>49.528</td>
+                <td>1.638</td>
+                <td>11,0</td>
+                <td>16,1</td>
+            </tr>
+        </table>
+
+
+        <hr>
+
+        <form method="POST">
+        <h3>Registrate:</h3>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Santiago ..." required />
+        <p> 
+            <label for="email">Correo electrónico:</label>
+            <input type="wmail" name="email" placeholder="ejemplo@ejemplo.com" required />
+        </p>
+
+        <p>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" required />
+        </p>
+        <p>
+            <select name="meses" id="">
+            <option value="">Enero</option>
+            <option value="">Febrero</option>
+            <option value="">Marzo</option>
+            <option value="">Abril</option>
+            </select>
+        </p> 
+        <p>
+            <input type="checkbox"/>
+            <label for="">Opción 1</label>
+        </p>                 
+        <p>
+            <input type="radio" name="Color" value="rojo">
+            <label for="color">Rojo</label>
+            <input type="radio" name="Color" value="verde">
+            <label for="color">Verde</label>
+            <input type="radio" name="Color" value="azul">
+            <label for="color">Azul</label>
+            <input type="radio" name="Color" value="amarillo">
+            <label for="color">Amarillo</label>
+            <input type="radio" name="Color" value="naranja">
+            <label for="color">Naranja</label>
+        </p>
+        <p>
+            <textarea name="" id="" cols="150" rows="20" ></textarea>
+        </p>
+           
+            <!-- <input type="date" name="cumpleanio"> -->
+            <!-- <input type="submit" value="Registrar"> -->
+        <button type="submit">Registrar</button>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+
+
+
+.divisor{
+    background-color: rgb(126, 126, 126);
+    color: white;
+    margin-left: 100px;   
+    margin-right: 100px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+     
+}
+
+
+
+
+.texto{
+    margin-top: -250px;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto1{
+    padding-bottom: 50px;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto2{
+    margin-top: -250px;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto3{
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    
+
+.parrafos{
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
+
+
+
+.imagen{
+    height: 200px;
+    width: 200px;
+    background-image:url('../img/html.png');
+    background-size: cover;
+    margin-left: 175px;
+    margin-bottom: 80px;
+
+}
+.imagen2{
+    height: 200px;
+    width: 200px;
+    background-image:url('../img/css.png');
+    background-size: cover;
+    margin-left: 175px;
+    margin-bottom: 80px;
+}
+
+.remarcar{
+    color: red;
+}
+.bgw{
+    background-color: white;
+}
